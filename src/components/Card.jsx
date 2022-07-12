@@ -1,8 +1,5 @@
-import Text from "./Text";
-import InputField from "./InputField";
-import "./style.css";
-import Button from "./Button";
-import { useState } from "react";
+import "..styles/style.css";
+
 const Card = ({ backgroundColor, component }) => {
 
     return (
